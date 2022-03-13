@@ -36,5 +36,7 @@ int main(int argc, char **argv) {
 
     std::cout << "\nUsername or password is incorrect.\n";
     
+    credentials.close(); //i nearly always forget this lmao
+
     return 0;
 }

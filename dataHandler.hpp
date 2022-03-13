@@ -11,3 +11,5 @@ std::string getPassword(std::string credentials) {
 
     return password ;
 }
+
+//do hashing here
